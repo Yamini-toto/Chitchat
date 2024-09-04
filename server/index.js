@@ -5,7 +5,9 @@ const socketIO = require("socket.io");
 
 const app = express();
 const users =[];
-app.use(cors());
+app.use(cors({
+  origin: 'https://your-frontend-url.onrender.com'
+}));
 const port = 4500 || process.env.port;
 app.get("/", (req,res)=>{
   res.send("Hell its working");
