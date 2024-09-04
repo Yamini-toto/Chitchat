@@ -6,7 +6,7 @@ const socketIO = require("socket.io");
 const app = express();
 const users =[];
 app.use(cors({
-  origin: 'https://chit-chat-1-tf55.onrender.com/chat'
+  origin: 'https://chit-chat-1-tf55.onrender.com'
 }));
 
 const port = 4500 || process.env.port;
