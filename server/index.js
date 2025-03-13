@@ -6,7 +6,7 @@ const socketIO = require("socket.io");
 const app = express();
 const users =[];
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: 'https://chitchat-niyes59fw-yamini-totos-projects.vercel.app/'
 }));
 
 const port = 4500 || process.env.port;
