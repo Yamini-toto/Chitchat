@@ -8,7 +8,7 @@ import "./Chat.css";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 
 let socket;
-const ENDPOINT = "http://localhost:4500";
+const ENDPOINT = "https://chitchat-96xe.onrender.com/";
 
 const Chat = () => {
  const [id, setid] = useState("");
